@@ -80,6 +80,7 @@
         self.calcultor = (calculating)tag;
     }else if (tag == 100) {
         //百分比
+        self.calcultor = calculatingMult;
         self.result = resultLabel.text;
         [self setCalcultorResult:@"0.01"];
     } else if (tag == 101) {
